@@ -14,6 +14,6 @@ export default ({ env }) => ({
       },
     },
   },
-  serveAdminPanel: true,
+  // serve-admin-panel: true,
   enableUploadPreview: true,
 });
