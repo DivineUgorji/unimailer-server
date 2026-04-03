@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_stats",
+  "info": {
+    "displayName": "subTextBlock"
+  },
+  "options": {},
+  "attributes": {
+    "stepCount": {
+      "type": "integer"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
