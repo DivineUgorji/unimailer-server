@@ -1,5 +1,5 @@
 export default ({ env }) => ({
-  // url: "/admin",
+  url: "/admin",
   auth: {
     secret: env("ADMIN_JWT_SECRET"),
   },
@@ -18,4 +18,6 @@ export default ({ env }) => ({
     nps: env.bool("FLAG_NPS", true),
     promoteEE: env.bool("FLAG_PROMOTE_EE", true),
   },
+  serveAdminPanel: true,
+  enableUploadPreview: true,
 });
